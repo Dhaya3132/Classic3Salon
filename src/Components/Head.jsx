@@ -4,6 +4,7 @@ export function Head() {
         <div className="flex justify-center items-center gap-28 p-14">
             <div className="flex flex-col justify-start">
                 <h2 className="text-white font-light font-Poppins text-7xl">Best Shop in <span className="font-normal font-DancingScript text-8xl text-green-500 border-solid border-b-4 border-green-500">Town</span></h2>
+                <h2 className="font-Poppins text-white">Get your perfect style with us</h2>
                 <Button>Book an appointment</Button>
             </div>
             <div>
