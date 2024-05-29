@@ -7,9 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'BackgroundColor': '#000000',
-        'Purpple': '#392d69',
-        'LightPurpple': '#b57bee',
+        'Green':'#3CBB76',
       },
 
       fontFamily: {

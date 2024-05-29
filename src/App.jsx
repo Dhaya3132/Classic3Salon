@@ -1,16 +1,15 @@
 import './App.css'
-import './Components/Navbar';
-import { Navbar } from './Components/Navbar';
-import { Head } from './Components/Head';
-import { About } from './Components/AboutUs';
+import Navbar from './Components/NavBar/Navbar';
+import  Offer  from './Components/Offer';
+import  Head  from './Components/Header/Head';
 function App() {
 
   return (
-    <div className="bg-BackgroundColor">
-      <Navbar></Navbar>
-      <Head></Head>
-      <About></About>
-    </div>
+    <>
+    <Offer></Offer>
+    <Navbar></Navbar>
+    <Head></Head>
+    </>
   )
 }
 
