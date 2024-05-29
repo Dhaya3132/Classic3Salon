@@ -1,4 +1,4 @@
-import { MovingText } from "./MovingText"
+import { MovingText } from "../MovingText"
 export function About() {
     return (
         <div>
