@@ -3,6 +3,7 @@ import Navbar from './Components/NavBar/Navbar';
 import  Offer  from './Components/Offer';
 import  Head  from './Components/Header/Head';
 import { MovingText } from './Components/MovingText';
+import { About } from './Components/About/AboutUs';
 function App() {
 
   return (
@@ -11,6 +12,7 @@ function App() {
     <Navbar></Navbar>
     <Head></Head>
     <MovingText></MovingText>
+    <About />
     </>
   )
 }
