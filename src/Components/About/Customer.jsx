@@ -25,7 +25,7 @@ function Customer() {
       <ScrollTrigger onEnter={() => setEntering(true)} onExit={() => setEntering(false)}>
         <div className='text-center'>
           <h5 className='font-semibold text-Green text-6xl'>
-            {onEntering && <CountUp start={2000} end={3750} delay={0} duration={5} />} +
+            {onEntering && <CountUp start={2000} end={3750} delay={0} duration={5} />}+
           </h5>
           <p className='font-medium text-gray-500 text-3xl'>Happy Customer</p>
         </div>

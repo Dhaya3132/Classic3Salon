@@ -4,6 +4,7 @@ import  Offer  from './Components/Offer';
 import  Head  from './Components/Header/Head';
 import { MovingText } from './Components/MovingText';
 import { About } from './Components/About/AboutUs';
+import Service from './Components/Servicess/Service';
 function App() {
 
   return (
@@ -13,6 +14,8 @@ function App() {
     <Head></Head>
     <MovingText></MovingText>
     <About />
+    <Service></Service>
+    
     </>
   )
 }
