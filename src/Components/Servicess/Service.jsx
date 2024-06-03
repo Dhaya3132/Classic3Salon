@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Button from '../Button';
 import { Service_Data } from '../../DataComponents/Servicedata';
+import { Service_Women_Data } from '../../DataComponents/Servicedata';
 import Components_List from './Components';
 
 function Service() {
@@ -8,10 +9,9 @@ function Service() {
   const [data, setdata] = useState([]);
   const men = () => {
     setdata(Service_Data);
-    console.log('clicked');
   }
   const women = () =>{
-    setdata(Service_Data);
+    setdata(Service_Women_Data);
   }
 
   return (
@@ -24,6 +24,7 @@ function Service() {
       <ul className='flex justify-start gap-10 mt-5'>
         {data.map((items,index) => <Components_List key={index} {...items} />)}
       </ul>
+      <h3 className='font-Poppins text-6xl text-center font-semibold text-Green mt-10'>MOVE BEYOND TREND</h3>
     </div>
   )
 }
