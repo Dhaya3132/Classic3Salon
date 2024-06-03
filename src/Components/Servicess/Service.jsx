@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Button from '../Button';
-import { Service_Data } from '../../DataComponents/Servicedata';
-import { Service_Women_Data } from '../../DataComponents/Servicedata';
+import { Service_Data } from '../DataComponents/Servicedata';
+import {Service_Women_Data} from '../DataComponents/Servicedata'
 import Components_List from './Components';
 
 function Service() {

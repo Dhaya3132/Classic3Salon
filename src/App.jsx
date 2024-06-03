@@ -5,6 +5,7 @@ import  Head  from './Components/Header/Head';
 import { MovingText } from './Components/MovingText';
 import { About } from './Components/About/AboutUs';
 import Service from './Components/Servicess/Service';
+import Appoinment from './Components/Appoinment';
 function App() {
 
   return (
@@ -15,7 +16,7 @@ function App() {
     <MovingText></MovingText>
     <About />
     <Service></Service>
-    
+    <Appoinment />
     </>
   )
 }
