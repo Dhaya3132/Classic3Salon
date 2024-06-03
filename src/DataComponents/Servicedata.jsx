@@ -1,17 +1,16 @@
 export const Service_Data = [
     {
-        image,
-        title,
-        description,
-    }
+        title: 'Hair Cut',
+        description: 'Sleek, modern, textured layered cut.',
+    },
     {
-        image,
-        title,
-        description,
-    }
+
+        title: 'Beard Trim & Shave',
+        description: 'Precision grooming for sharp look.',
+    },
     {
-        image,
-        title,
-        description,
+
+        title: 'Facial',
+        description: 'Cleanse, hydrate, protect, nourish, rejuvenate.',
     }
 ]
