@@ -8,6 +8,7 @@ import Service from './Components/Servicess/Service';
 import Appoinment from './Components/Appoinment';
 import Customers from './Components/Customer/Customers';
 import Trend from './Components/Trend';
+import Footer from './Components/Footer/Footer';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Appoinment />
       <Customers></Customers>
       <Trend></Trend>
+      <Footer></Footer>
     </div>
   )
 }

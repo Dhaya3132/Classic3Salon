@@ -1,9 +1,15 @@
 import React from 'react'
+import Logo from '../Logo'
+import Nav from '../NavBar/Nav'
 
 function Footer() {
   return (
-    <div>
-        
+    <div className='p-10 flex justify-between items-center'>
+        <Logo></Logo>
+        <Nav></Nav>
+        <div>
+          <h4 className='text-white'>Contact Us : +91 00012 12345</h4>
+        </div>
     </div>
   )
 }
