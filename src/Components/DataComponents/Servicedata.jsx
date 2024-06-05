@@ -33,3 +33,27 @@ export const Service_Women_Data = [
         description: 'Cleanse, hydrate, protect, nourish, rejuvenate.',
     }
 ]
+
+export const FeedBack = [
+    {
+        Para: 'Service person is nice talk and quality services response for all staff.',
+    },
+    {
+        Para: 'Classic 3 is the best salon in dharapuram...The staffs are highly professional...',
+    },
+    {
+        Para :'Good ambiances, well professional staff and affordable price..😊',
+    },
+    {
+        Para : 'The salon is very neat and hygienic...'
+    },
+    {
+        Para : 'Rahman sir has done by haircut and it was a very good experience',
+    },
+    {
+        Para : 'I highly recommend this salon to u guys...Try it...',
+    },
+    {
+        Para : 'welcome is going good. immediately response my call better services nice look interior looks',
+    },
+]

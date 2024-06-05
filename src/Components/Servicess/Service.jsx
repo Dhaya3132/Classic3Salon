@@ -24,7 +24,6 @@ function Service() {
       <ul className='flex justify-start gap-10 mt-5'>
         {data.map((items,index) => <Components_List key={index} {...items} />)}
       </ul>
-      <h3 className='font-Poppins text-6xl text-center font-semibold text-Green mt-10'>MOVE BEYOND TREND</h3>
     </div>
   )
 }
