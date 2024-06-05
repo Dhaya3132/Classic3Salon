@@ -39,7 +39,7 @@ export const FeedBack = [
         Para: 'Service person is nice talk and quality services response for all staff.',
     },
     {
-        Para: 'Classic 3 is the best salon in dharapuram...The staffs are highly professional...',
+        Para: 'Classic 3 is the best salon in dharapuram...',
     },
     {
         Para :'Good ambiances, well professional staff and affordable price..😊',
@@ -55,5 +55,8 @@ export const FeedBack = [
     },
     {
         Para : 'welcome is going good. immediately response my call better services nice look interior looks',
+    },
+    {
+        Para : 'The staffs are highly professional...',
     },
 ]
