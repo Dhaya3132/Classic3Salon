@@ -54,7 +54,7 @@ export const FeedBack = [
         Para : 'I highly recommend this salon to u guys...Try it...',
     },
     {
-        Para : 'welcome is going good. immediately response my call better services nice look interior looks',
+        Para : 'welcome is going good. immediately response, services nice.',
     },
     {
         Para : 'The staffs are highly professional...',

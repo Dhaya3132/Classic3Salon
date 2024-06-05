@@ -2,8 +2,8 @@ import React from 'react'
 
 function Feed ({Para}) {
     return (
-    <li className='bg-Grey rounded-md w-80 h-20 p-2 font-Poppins text-center'>
-        <h4>{Para}</h4>
+    <li className='bg-Grey w-72 h-24 font-Poppins text-center p-3'>
+        <h4 className='w-64 '>{Para}</h4>
     </li>
 )
 }
