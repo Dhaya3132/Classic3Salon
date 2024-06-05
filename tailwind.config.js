@@ -7,16 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'Green':'#3CBB76',
-        'Grey':'#f5f5f5',
+        'Green': '#3CBB76',
+        'Grey': '#f5f5f5',
       },
-
       fontFamily: {
         'DancingScript': ['Dancing Script'],
         'Poppins': ['Poppins'],
         'PlayFair': ['PlayFair']
       },
-
       keyframes: {
         'move': {
           '0%': {
@@ -27,12 +25,17 @@ export default {
           },
         },
       },
-
       animation: {
         'Move': 'move 20s linear infinite',
       },
+      screens: {
+        'Laptop-M': { 'max': '1025px' },
+        'Tabelt': { 'max': '769px' },
+        'Mobile-L': { 'max': '426px' },
+        'Mobile-M': { 'max': '376px' },
+        'Mobile-S': { 'max': '321px' },
+      }
     },
-
   },
 }
 plugins: []

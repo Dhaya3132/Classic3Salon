@@ -16,14 +16,14 @@ function App() {
     <div className='bg-black'>
       <Offer></Offer>
       <Navbar></Navbar>
-      <Head></Head>
+      {/* <Head></Head>
       <MovingText></MovingText>
       <About />
       <Service></Service>
       <Appoinment />
       <Customers></Customers>
       <Trend></Trend>
-      <Footer></Footer>
+      <Footer></Footer> */}
     </div>
   )
 }
