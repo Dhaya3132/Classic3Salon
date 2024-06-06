@@ -16,8 +16,8 @@ function App() {
     <div className='bg-black'>
       <Offer></Offer>
       <Navbar></Navbar>
-      {/* <Head></Head>
-      <MovingText></MovingText>
+      <Head></Head>
+      {/* <MovingText></MovingText>
       <About />
       <Service></Service>
       <Appoinment />
