@@ -13,17 +13,18 @@ import Footer from './Components/Footer/Footer';
 function App() {
 
   return (
-    <div className='bg-black'>
-      <Offer></Offer>
-      <Navbar></Navbar>
-      <Head></Head>
-      {/* <MovingText></MovingText>
-      <About />
+    <div>
+      <div className='bg-black'>
+        <Navbar></Navbar>
+        <Offer></Offer>
+        <Head></Head>
+        <MovingText></MovingText>
+      </div>
+      <About></About>
       <Service></Service>
-      <Appoinment />
       <Customers></Customers>
       <Trend></Trend>
-      <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   )
 }

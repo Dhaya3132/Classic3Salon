@@ -9,7 +9,7 @@ function Nav() {
     return (
         <>
             <div className='flex items-center'>
-                <ul className="flex gap-5 text-lg font-normal text-white Mobile-S:hidden Mobile-M:hidden Mobile-L:hidden">
+                <ul className="flex gap-5 text-normal font-normal text-white Mobile-S:hidden Mobile-M:hidden Mobile-L:hidden">
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Services</li>
@@ -17,7 +17,7 @@ function Nav() {
                 <AiOutlineAlignRight className='text-white hidden Mobile-S:block Mobile-S:text-white Mobile-M:block Mobile-L:block' size="25px"  />
             </div>
             <div className='hidden'>
-                <ul className="flex gap-5 text-lg font-normal text-white">
+                <ul className="flex gap-5 text-sm font-normal text-white">
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Services</li>

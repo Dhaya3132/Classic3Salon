@@ -4,7 +4,7 @@ import Nav from '../NavBar/Nav'
 
 function Footer() {
   return (
-    <div className='p-10 flex justify-between items-center'>
+    <div className='p-10 flex justify-between items-center bg-Green rounded-tl-3xl rounded-tr-3xl'>
         <Logo></Logo>
         <Nav></Nav>
         <div>
