@@ -1,6 +1,6 @@
 import './App.css'
-import {Navbar} from 'src\Components\NavBar\Navbar.jsx';
-import Offer from './Components/Offer';
+import {Navbar} from 'src/Components/NavBar/Navbar.jsx';
+import Offer from 'src/Components/Offer.jsx';
 import Head from './Components/Header/Head';
 import { MovingText } from './Components/MovingText';
 import { About } from './Components/About/AboutUs';
