@@ -42,7 +42,7 @@ function Timer({ initalDay = 2, initalHours = 0, initialMinutes = 30, initialSec
     }, [minutes, seconds]);
 
     return (
-        <div className="font-Poppins font-medium text-center text-white">
+        <div className="font-Poppins font-medium text-center text-white Mobile-M:text-sm">
             {days}D : {hours < 10 ? `0${hours}` : hours}H : {minutes < 10 ? `0${minutes}` : minutes}M : {seconds < 10 ? `0${seconds}` : seconds}S;
         </div>
     )

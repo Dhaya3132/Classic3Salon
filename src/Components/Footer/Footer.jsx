@@ -4,11 +4,10 @@ import Nav from '../NavBar/Nav'
 
 function Footer() {
   return (
-    <div className='p-10 flex justify-between items-center bg-Green rounded-tl-3xl rounded-tr-3xl'>
+    <div className='p-10 flex justify-between items-center bg-Green rounded-tl-3xl rounded-tr-3xl Mobile-S:flex-col'>
         <Logo></Logo>
-        <Nav></Nav>
         <div>
-          <h4 className='text-white'>Contact Us : +91 00012 12345</h4>
+          <h4 className='text-white Mobile-S:mt-2'>Contact Us : +91 00012 12345</h4>
         </div>
     </div>
   )

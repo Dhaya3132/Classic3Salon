@@ -15,13 +15,13 @@ function Service() {
   }
 
   return (
-    <div className='bg-Grey mt-20  p-20'>
+    <div className='bg-Grey mt-20  p-20 Mobile-S:p-5 Mobile-S:mt-10 Mobile-M:p-5 Mobile-M:mt-10 Mobile-L:p-5 Mobile-L:mt-10'>
       <h2 className="font-Poppins font-medium text-black text-5xl">Services</h2>
       <div className='flex gap-5'>
         <Button onClick={men}>Men</Button>
         <Button onClick={women}>Women</Button>
       </div>
-      <ul className='flex justify-start gap-10 mt-5'>
+      <ul className='flex justify-start gap-10 mt-5 Mobile-S:flex-col Mobile-S:gap-5 Mobile-M:flex-col Mobile-M:gap-5 Mobile-L:flex-col Mobile-L:gap-5'>
         {data.map((items,index) => <Components_List key={index} {...items} />)}
       </ul>
     </div>
