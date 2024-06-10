@@ -1,4 +1,5 @@
 import HeadLine from "./HeadLine";
+
 function Head() {
     return (
         <div className="flex justify-center items-center gap-28 p-14 
@@ -7,7 +8,7 @@ function Head() {
         Mobile-L:flex-col Mobile-L:justify-center Mobile-L:items-center Mobile-L:p-10 Mobile-L:gap-10 Mobile-L:mt-5">
             <HeadLine></HeadLine>
             <div>
-                <img src="..\src\assets\aarx0g3at.png" className="w-96 h-96 Mobile-S:w-52 Mobile-S:h-52 Mobile-M:w-56 Mobile-M:h-56 Mobile-L:w-56 Mobile-L:h-56"/>
+                <img src="./src/assets/aarx0g3at.png" className="w-96 h-96 Mobile-S:w-52 Mobile-S:h-52 Mobile-M:w-56 Mobile-M:h-56 Mobile-L:w-56 Mobile-L:h-56"/>
             </div>
         </div>
     )
