@@ -1,8 +1,6 @@
 import React from 'react'
 import { AiOutlineAlignRight } from "react-icons/ai";
 import 'tailwindcss/tailwind.css';
-import { useState } from 'react';
-
 
 function Nav() {
     
