@@ -8,7 +8,7 @@ function HeadLine() {
             className="text-white font-light font-Poppins text-6xl 
             Mobile-S:text-3xl Mobile-S:w-full Mobile-S:text-center 
             Mobile-M:text-4xl Mobile-M:w-full Mobile-M:text-center Mobile-M:p-3
-            Mobile-L:text-4xl Mobile-L:w-full Mobile-L:text-center Mobile-L:p-1"> Elevate your<span className="font-normal font-DancingScript text-8xl text-Green Mobile-S:text-4xl Mobile-M:text-4xl Mobile-L:text-4xl">Salon</span>Experience</h2>
+            Mobile-L:text-4xl Mobile-L:w-full Mobile-L:text-center Mobile-L:p-1"> Elevate your<span className="font-normal font-DancingScript text-8xl text-white Mobile-S:text-4xl Mobile-M:text-4xl Mobile-L:text-4xl">Salon</span>Experience</h2>
 
             <div className="flex justify-end flex-col items-end mt-8 
             Mobile-S:justify-center Mobile-S:items-center Mobile-S:mt-2

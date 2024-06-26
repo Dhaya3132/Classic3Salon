@@ -47,16 +47,16 @@ export const FeedBack = [
     {
         Para : 'The salon is very neat and hygienic...'
     },
-    {
-        Para : 'Rahman sir has done by haircut and it was a very good experience',
-    },
-    {
-        Para : 'I highly recommend this salon to u guys...Try it...',
-    },
-    {
-        Para : 'welcome is going good. immediately response, services nice.',
-    },
-    {
-        Para : 'The staffs are highly professional...',
-    },
+    // {
+    //     Para : 'Rahman sir has done by haircut and it was a very good experience',
+    // },
+    // {
+    //     Para : 'I highly recommend this salon to u guys...Try it...',
+    // },
+    // {
+    //     Para : 'welcome is going good. immediately response, services nice.',
+    // },
+    // {
+    //     Para : 'The staffs are highly professional...',
+    // },
 ]

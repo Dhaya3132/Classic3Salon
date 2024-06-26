@@ -9,8 +9,10 @@ export default {
       colors: {
         'Green': '#5A4FCF',
         'Grey': '#f5f5f5',
-        'DullLight':'#003973',
-        'Dull':'#e5e5be',
+        'DullLight':'#fcb0f3',
+        'Dull':'#3d05dd',
+        'Ligth':'#ebf4f5',
+        'LightPro':'#b5c6e0'
       },
       fontFamily: {
         'DancingScript': ['Dancing Script'],

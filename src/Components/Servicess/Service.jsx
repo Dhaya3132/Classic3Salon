@@ -15,7 +15,7 @@ function Service() {
   }
 
   return (
-    <div className='bg-Grey mt-20  p-20 Mobile-S:p-5 Mobile-S:mt-10 Mobile-M:p-5 Mobile-M:mt-10 Mobile-L:p-5 Mobile-L:mt-10'>
+    <div className='bg-gradient-to-r from-Ligth to-LightPro to-50% mt-20  p-20 Mobile-S:p-5 Mobile-S:mt-10 Mobile-M:p-5 Mobile-M:mt-10 Mobile-L:p-5 Mobile-L:mt-10'>
       <h2 className="font-Poppins font-medium text-black text-5xl">Services</h2>
       <div className='flex gap-5'>
         <Button onClick={men}>Men</Button>

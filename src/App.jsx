@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      <div className='bg-gradient-to-r from-indigo-500 to-transparent'>
+      <div className='bg-gradient-to-r from-DullLight to-Dull'>
         <Navbar></Navbar>
         <Offer></Offer>
         <Head></Head>
